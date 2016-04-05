@@ -1,0 +1,7 @@
+[push]
+	default = simple
+[user]
+	name = Joel Barciauskas
+	email = barciajo@gmail.com
+[core]
+	editor = /usr/local/bin/vim
