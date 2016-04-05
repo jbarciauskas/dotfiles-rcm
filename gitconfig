@@ -1,7 +1,18 @@
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p[branch]
+    autosetupmerge = true
+    autosetuprebase = always
 [push]
-	default = simple
-[user]
-	name = Joel Barciauskas
-	email = barciajo@gmail.com
+    default = simple
 [core]
-	editor = /usr/local/bin/vim
+    precomposeunicode = false
+    editor = /usr/bin/vim
+[user]
+    name = Joel Barciauskas
+    email = joel@edx.org
