@@ -42,6 +42,9 @@ antigen bundle pip
 antigen bundle python
 antigen bundle virtualenv
 
+antigen bundle lein
+antigen bundle command-not-found
+
 # OS specific plugins
 if [[ $CURRENT_OS == 'OS X' ]]; then
     antigen bundle brew
@@ -62,5 +65,4 @@ fi
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-source /Users/jbarciauskas/.iterm2_shell_integration.zsh
 source /usr/local/share/zsh/site-functions/_aws
