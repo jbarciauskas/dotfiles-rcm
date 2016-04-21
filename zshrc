@@ -18,7 +18,8 @@ antigen bundle robbyrussell/oh-my-zsh lib/
 # Antigen Theme
 #
 
-antigen theme jdavis/zsh-files themes/jdavis
+#antigen theme jdavis/zsh-files themes/jdavis
+antigen theme robbyrussell
 
 #
 # Antigen Bundles
@@ -61,8 +62,15 @@ elif [[ $CURRENT_OS == 'Cygwin' ]]; then
     antigen bundle cygwin
 fi
 
+export PIP_REQUIRE_VIRTUALENV=true
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 source /usr/local/share/zsh/site-functions/_aws
+
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
