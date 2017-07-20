@@ -15,4 +15,7 @@
     editor = /usr/bin/vim
 [user]
     name = Joel Barciauskas
-    email = joel@edx.org
+    email = barciajo@gmail.com
+[branch]
+    autosetupmerge = true
+    autosetuprebase = always

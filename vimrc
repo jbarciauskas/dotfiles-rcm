@@ -42,6 +42,8 @@ Bundle 'kevinw/pyflakes-vim'
 Bundle 'yann2192/vim-colorschemes'
 Bundle 'yann2192/vim-vitamins'
 
+Plugin 'elixir-lang/vim-elixir'
+
 " Snipmate
 Bundle 'tomtom/tlib_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -92,7 +94,7 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 " Don't autofold code
 let g:pymode_folding = 0
 
-let g:pymode_indent = 0
+let g:pymode_indent = 1
 autocmd FileType python set colorcolumn=120
 
 filetype on                   " try to detect filetypes
