@@ -1,3 +1,13 @@
+casks:
+- !!python/unicode 'gimp'
+- !!python/unicode 'java'
+- !!python/unicode 'karabiner-elements'
+- !!python/unicode 'rstudio'
+- !!python/unicode 'serviio'
+- !!python/unicode 'tuntap'
+- !!python/unicode 'vagrant'
+- !!python/unicode 'virtualbox'
+- !!python/unicode 'xquartz'
 formulas:
 - !!python/unicode 'awscli'
 - !!python/unicode 'gettext'
