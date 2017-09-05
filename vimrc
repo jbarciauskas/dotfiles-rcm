@@ -27,6 +27,8 @@ Plugin 'tpope/vim-fugitive'
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 Plugin 'rust-lang/rust.vim'
+Plugin 'elmcast/elm-vim'
+Plugin 'jelera/vim-javascript-syntax'
 Plugin 'scrooloose/syntastic'
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
@@ -249,6 +251,9 @@ nnoremap <leader>td  :tabclose<CR>
 " Javascript
 " ==========================================================
 au BufRead *.js set makeprg=jslint\ %
+au FileType javascript setl sw=2 sts=2 et
+
+let g:syntastic_check_on_open=1
 
 " Don't allow snipmate to take over tab
 "autocmd VimEnter * ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
