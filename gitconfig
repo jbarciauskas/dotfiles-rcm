@@ -13,6 +13,7 @@
 [core]
     precomposeunicode = false
     editor = /usr/bin/vim
+    excludesfile = /Users/jbarciauskas/.gitignore_global
 [user]
     name = Joel Barciauskas
     email = barciajo@gmail.com
