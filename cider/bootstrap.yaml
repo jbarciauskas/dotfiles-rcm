@@ -28,3 +28,11 @@ formulas:
 - !!python/unicode 'wget'
 - !!python/unicode 'xz'
 - !!python/unicode 'zsh'
+taps:
+- !!python/unicode 'caskroom/cask'
+- !!python/unicode 'homebrew/core'
+- !!python/unicode 'homebrew/fuse'
+- !!python/unicode 'homebrew/science'
+- !!python/unicode 'homebrew/services'
+- !!python/unicode 'homebrew/versions'
+- !!python/unicode 'thoughtbot/formulae'
