@@ -67,7 +67,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="${HOME}/.composer/vendor/bin:/usr/local/heroku/bin:$PATH"
 
 source /usr/local/share/zsh/site-functions/_aws
 
