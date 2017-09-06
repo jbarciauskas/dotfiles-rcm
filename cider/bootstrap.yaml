@@ -1,6 +1,7 @@
 casks:
 - !!python/unicode 'gimp'
 - !!python/unicode 'java'
+- !!python/unicode 'karabiner'
 - !!python/unicode 'karabiner-elements'
 - !!python/unicode 'rstudio'
 - !!python/unicode 'serviio'
