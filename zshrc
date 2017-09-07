@@ -76,3 +76,6 @@ gpip(){
 }
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export DATADOG_ROOT="${HOME}/src/datadog"
+export GOPATH="${HOME}/src/go"
+eval "$(rbenv init -)"
