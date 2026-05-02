@@ -31,9 +31,6 @@ antigen bundle tmuxinator
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle rupa/z
 
-# For SSH, starting ssh-agent is annoying
-antigen bundle ssh-agent
-
 # Node Plugins
 antigen bundle coffee
 antigen bundle node
@@ -134,3 +131,20 @@ export JAVA_HOME=`/usr/libexec/java_home -v 18`
 # Created by `pipx` on 2022-09-25 00:22:11
 export PATH="$PATH:/Users/joel.barciauskas/.local/bin"
 eval "$(register-python-argcomplete pipx)"
+
+# BEGIN SCFW MANAGED BLOCK
+alias npm="scfw run npm"
+alias pip="scfw run pip"
+alias poetry="scfw run poetry"
+export SCFW_DD_AGENT_LOG_PORT="10365"
+export SCFW_DD_LOG_LEVEL="ALLOW"
+export SCFW_HOME="/Users/joel.barciauskas/.scfw"
+# END SCFW MANAGED BLOCK
+
+# bun completions
+[ -s "/Users/joel.barciauskas/.bun/_bun" ] && source "/Users/joel.barciauskas/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

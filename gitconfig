@@ -14,9 +14,12 @@
     precomposeunicode = false
     editor = /usr/bin/vim
     excludesfile = /Users/jbarciauskas/.gitignore_global
+	hooksPath = /usr/local/dd/global_hooks
 [user]
     name = Joel Barciauskas
     email = barciajo@gmail.com
 [branch]
     autosetupmerge = true
     autosetuprebase = always
+[maintenance]
+	repo = /Users/joel.barciauskas/src/dd-source

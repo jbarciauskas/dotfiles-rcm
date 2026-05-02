@@ -1,18 +1,18 @@
 workProfile = {
   name: "Google Chrome",
-  profile: "Profile 1",
+  profile: "datadoghq.com",
   openInBackground: false,  // removes an 100ms delay
 };
 
 govCloudProfile = {
   name: "Google Chrome",
-  profile: "Profile 5",
+  profile: "ddog-gov.com",
   openInBackground: false,  // removes an 100ms delay
 };
 
 personalProfile = {
   name: "Google Chrome",
-  profile: "Default",
+  profile: "Personal",
   openInBackground: false,  // removes an 100ms delay
 };
 
@@ -76,6 +76,8 @@ module.exports = {
 		/docs.google.com/,
 		"https://accounts.google.com/o/saml2/idp?idpid=C0147pk0i*",  // SAML login for datadoghq organization (used by AppGate)
 		"https://accounts.google.com/o/oauth2/v2/auth?client_id=1023266953562-2nltfg1vsh570fr2npin7klkn8lo3g6e.apps.googleusercontent.com*",  // Second SAML login (still guessing)
+        /claude.ai/,
+        /workos.com/,
 	  ],
 	  browser: workProfile,
 	},
